@@ -2,6 +2,19 @@
    Author's custom styles
    ========================================================================== */
 
+
+@import url(https://fonts.googleapis.com/css?family=Sniglet:800);
+
+
+html {
+  width: 100%;
+}
+
+body {
+  padding-top: 0;
+  width: 100%;
+}
+
 ul.photo-gallery {
     list-style-type: none;
 }
@@ -23,6 +36,22 @@ hr {
     text-decoration: underline;
 }
 
+
+.container {
+  top: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.title {
+  top:0;
+  margin-top: 0;
+  width: 100%;
+  font-family: Sniglet;
+  font-weight: 800;
+  text-align: center;
+  background: #FFCC11;
+}
 
 
 
